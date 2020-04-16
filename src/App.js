@@ -1,14 +1,19 @@
 import React from 'react'
-import PokemonCardComponent from './components/PokemonCardComponent'
 import Navbar from './components/NavBar'
+import Mainboard from './components/Mainboard'
+import Pagination from './components/Pagination'
+import './style/App.css'
 
 class App extends React.Component {
   render() {
     return (
       <>
         <Navbar />
-        <h1>Hello World</h1>
-        <PokemonCardComponent />f
+        <Pagination />
+
+        <div className="container">
+          <Mainboard />
+        </div>
       </>
     )
   }
