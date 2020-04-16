@@ -12,7 +12,7 @@ class PokemonCardComponent extends React.Component {
        alt="Card image cap" /> */}
           <div className="header">
             <h5 className="card-title" style={{ textAlign: 'center' }}>
-              {this.props.name} : {this.props.url}{' '}
+              {this.props.name} : {this.props.url}
             </h5>
             <p className="card-text">{this.props.pokemon}</p>
           </div>
